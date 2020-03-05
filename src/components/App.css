@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.body {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(-20deg, #92fe9d 0%, #00c9ff 100%);
+  background-origin: border-box;
+  flex: 1;
+  margin: 0px;
+  resize: cover;
+  overflow-y: hidden;
+}
+
+.para {
+  padding-top: 0;
+  margin-left: 12em;
+  margin-right: 15em;
+  text-align: justify;
+  text-justify: distribute;
+  font-size: medium;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: normal;
+  color: indigo;
+}
+
+.head {
+  padding-top: 25px;
+  padding-bottom: 18px;
+  text-align: left;
+  padding-left: 6em;
+  font-variant: small-caps;
+  font-size: xx-large;
+  font-stretch: normal;
+  color: indigo;
+}

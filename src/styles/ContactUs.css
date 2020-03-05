@@ -1,0 +1,24 @@
+.rowC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb (71, 71, 71);
+  margin-left: -25rem;
+  background: transparent;
+  opacity: 0.9;
+  align-items: center;
+  font-family: Cambria,  Cochin,  Georgia,  Times,   "Times New Roman",  serif;
+  text-align: left;
+}
+
+.head {
+  text-align: left;
+}
+
+.image {
+  padding-top: 15px;
+  border-radius: 20%;
+  display: flexbox;
+  height: 400%;
+}
